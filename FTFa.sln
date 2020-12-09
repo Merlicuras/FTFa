@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTFa", "FTFa\FTFa.csproj", "{D68ECFB4-5623-417E-9CB4-8653C3BC23AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A356B384-1B80-4C22-A3DB-753F475F4B71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D68ECFB4-5623-417E-9CB4-8653C3BC23AA} = {D68ECFB4-5623-417E-9CB4-8653C3BC23AA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D68ECFB4-5623-417E-9CB4-8653C3BC23AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68ECFB4-5623-417E-9CB4-8653C3BC23AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68ECFB4-5623-417E-9CB4-8653C3BC23AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68ECFB4-5623-417E-9CB4-8653C3BC23AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A356B384-1B80-4C22-A3DB-753F475F4B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A356B384-1B80-4C22-A3DB-753F475F4B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A356B384-1B80-4C22-A3DB-753F475F4B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A356B384-1B80-4C22-A3DB-753F475F4B71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5442783D-CFE7-453B-94B6-82BDB925D442}
+	EndGlobalSection
+EndGlobal
